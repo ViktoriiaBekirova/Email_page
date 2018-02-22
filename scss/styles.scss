@@ -1,0 +1,292 @@
+@import "foundation";
+
+h2 {
+   @media only screen and (max-width: 500px) {
+     font-size: 25px !important;
+   }
+ }
+h3 {
+  @media only screen and (max-width: 500px) {
+    font-size: 20px !important;
+  }
+}
+p {
+  @media only screen and (max-width: 500px) {
+    font-size: 16px !important;
+  }
+}
+
+
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+  src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+  url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PTSansBold/PTSansBold.eot");
+  src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+  url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.text_white {
+  color: $white !important;
+  font-family: "PTSansBold", sans-serif !important;
+  margin: 0 !important;
+  .pd {
+    padding-left: 25px !important;
+  }
+}
+
+.text_orange {
+  color: #ffa800 !important;
+  font-family: "PTSansRegular", sans-serif !important;
+}
+
+  .text {
+    text-decoration: underline !important;
+    color: $white !important;
+    padding-bottom: 20px !important;
+  }
+
+
+
+.logo_left {
+      background: #4cb62c !important;
+      height: 215px !important;
+    }
+    .contacts {
+      padding: 30px 10px 30px 50px !important;
+      box-sizing: border-box !important;
+      height: auto !important;
+      background-image: url("../img/backg1block.jpg") !important;
+    }
+
+.block2 {
+  background-image: url("../img/backg2block.jpg") !important;
+  height: auto !important;
+}
+.bl2left {
+  padding-left: 50px !important;
+}
+ h2, h3 {
+   color: $white !important;
+   font-family: "PTSansBold", sans-serif !important;
+   margin-bottom: 0 !important;
+ }
+h2 {
+  line-height: 40px !important;
+}
+
+// из основного файла стили кнопки меняем
+
+table.button.go {
+  margin: 0;
+  padding-bottom: 65px;
+  table {
+    td {
+      background: $warning-color;
+      border: 2px solid $warning-color;
+      padding: 13px 17px !important; // задали padding для самой td а не для a
+      line-height: 18px;
+      a {
+        font-family: "PTSansRegular", sans-serif !important;
+        font-size: 18px !important;
+        padding: 0px; //изменили
+      }
+    }
+  }
+}
+
+.block3 {
+  background-image: url("../img/backg3block.jpg") !important;
+  height: auto !important;
+}
+.contInfo {
+  padding: 50px !important;
+}
+.info {
+  margin: 0 !important;
+  font-family: "PTSansRegular", sans-serif !important;
+  line-height: 25px !important;
+  .bold {
+    font-weight: bold !important;
+  }
+}
+.contInfo h2 {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.block4 {
+  background-image: url("../img/backg4block.jpg") !important;
+  height: auto !important;
+}
+.block4Left{
+  padding: 55px 0 10px 0  !important;
+}
+
+.block4right {
+  padding: 80px 10px 0 18px !important;
+}
+.block4right h2 {
+  font-weight: bold !important;
+}
+.text-info {
+  margin: 0 !important;
+  color: $white !important;
+  line-height: normal !important;
+  letter-spacing: 0px !important;
+  font-family: "PTSansRegular", sans-serif !important;
+  word-wrap: break-word !important;
+  span {
+    font-weight: bold !important;
+  }
+}
+.marker {
+  padding: 5px 20px 0 0 !important;
+}
+.text-info2 {
+  padding: 0 20px 40px 30px !important;
+}
+.text-info.bor {
+  border: 2px solid $white !important;
+  padding: 15px !important;
+  font-size: 17px !important;
+}
+.plus {
+  position: relative !important;
+  top: 20px !important;
+  right: 10px !important;
+}
+.block5 {
+  background-image: url("../img/backg5block.jpg") !important;
+}
+.bl5 {
+  padding: 53px 10px 50px 45px !important;
+}
+.bl5 h2, .block9 h2 {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+.text-info.black {
+  color: $black !important;
+  a {
+    color: $black !important;
+  }
+}
+.block6, .block8 {
+  background: #f6f6f6 !important;
+}
+.bl6left, .bl6right, .bl7left, .bl7right, .bl8cen  {
+  padding: 40px 0 40px 0 !important;
+  h2, h3 {
+    color: $black !important;
+    padding: 0 0 10px 20px !important;
+    line-height: 30px !important;
+  }
+  p {
+    padding: 0 15px 0 20px !important;
+
+  }
+  .img1 {
+    max-width: 74px !important;
+    padding-left: 40px !important;
+  }
+  .img1.row2 {
+    padding-left: 30px !important;
+  }
+  .img2 {
+    margin: 0 !important;
+    max-width: 181px !important;
+    padding-left: 50px !important;
+  }
+  .im {
+    margin: 0 !important;
+    max-width: 181px !important;
+    padding-left: 40px !important;
+  }
+}
+.block7, .block9 {
+  background: $white !important;
+}
+// из основного файла стили кнопки меняем
+
+table.button.subscribe {
+  display: block !important;
+  margin: 0 !important;
+  padding-left: 40px !important;
+  table {
+    td {
+      border-radius: 5px !important;
+      background: $primary-color;
+      border: none;
+      padding: 10px 20px !important; // задали padding для самой td а не для a
+      line-height: 18px;
+      a {
+        font-family: "PTSansRegular", sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        padding: 0px; //изменили
+      }
+    }
+  }
+}
+
+
+table.button.subscribe2 {
+  display: block !important;
+  margin: 0 !important;
+  padding-left: 40px !important;
+  table {
+    td {
+      border-radius: 5px !important;
+      background: $primary-color;
+      border: none;
+      padding: 10px 20px !important; // задали padding для самой td а не для a
+      line-height: 18px;
+      a {
+        font-family: "PTSansRegular", sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        padding: 0px; //изменили
+      }
+    }
+  }
+}
+
+.bl8cen {
+  padding: 30px 0 20px 0 !important;
+}
+.im2 {
+  margin: 0 !important;
+  max-width: 181px !important;
+  padding: 0 !important;
+}
+
+.foottext {
+  font-family: "PTSansRegular", sans-serif !important;
+  font-size: 18px !important;
+  padding: 10px 0 30px 0 !important;
+  text-decoration: underline !important;
+}
+.foottext2 {
+  font-family: "PTSansRegular", sans-serif !important;
+  font-size: 18px !important;
+  padding:  0 30px 40px 30px !important;
+  text-align: center;
+  a {
+    color: $black !important;
+    text-decoration: underline !important;
+  }
+  span {
+    font-weight: bold !important;
+  }
+}

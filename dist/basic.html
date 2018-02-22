@@ -1,0 +1,591 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #f3f3f3; min-height: 100%;">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <style>
+@media only screen and (max-width:666px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:666px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:666px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:666px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container {
+    width: 95% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.body img,table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand,table.menu {
+    width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width:500px) {
+  h2 {
+    font-size: 25px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+}
+</style>
+</head>
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+
+<table class="body" style="Margin: 0; background: #f3f3f3; border-collapse: collapse; border-spacing: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; height: 100%; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+  <tr style="padding: 0; text-align: left; vertical-align: top;">
+    <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <center data-parsed="" style="min-width: 650px; width: 100%;">
+        <!--block 1-->
+        <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+        <table align="center" class="container float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <!--left-block-->
+            <th class="logo_left small-12 large-4 columns first" style="Margin: 0 auto; background: #4cb62c !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; height: 215px !important; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 200.66667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <center data-parsed="" style="min-width: 168.66667px; width: 100%;">
+                <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="70px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 70px; font-weight: 400; hyphens: auto; line-height: 70px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <img src="../img/logo.png" alt="logo" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+              </center>
+            </th></tr></table></th>
+            <!--right-block-->
+            <th class="contacts small-12 large-8 columns last" style="Margin: 0 auto; background-image: url(../img/backg1block.jpg) !important; box-sizing: border-box !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; height: auto !important; line-height: 30px; margin: 0 auto; padding: 30px 10px 30px 50px !important; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 417.33333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <a href="#" class="text" style="Margin: 0; color: #fff !important; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; padding-bottom: 20px !important; text-align: left; text-decoration: underline !important;">
+                <p class="text_white" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Личный офис<span class="text_white pd" style="color: #fff !important; font-family: 'PTSansBold',sans-serif !important; margin: 0 !important; padding-left: 25px !important;">Система работы</span></p>
+              </a>
+              <p class="text_white" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Твой ID: <span class="text_orange" style="color: #ffa800 !important; font-family: 'PTSansRegular',sans-serif !important;">007-1364242</span></p>
+              <p class="text_white" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Наставник: <span class="text_orange" style="color: #ffa800 !important; font-family: 'PTSansRegular',sans-serif !important;">007-1323151,</span></p>
+              <span class="text_orange lh" style="color: #ffa800 !important; font-family: 'PTSansRegular',sans-serif !important;">Горохова Оксана</span>
+              <p class="text_white" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Телефон наставника: <span class="text_orange" style="color: #ffa800 !important; font-family: 'PTSansRegular',sans-serif !important;">7-911-882-13-46</span></p>
+            </th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 2-->
+        <table align="center" class="container block2 float-center" style="Margin: 0 auto; background: #fff; background-image: url(../img/backg2block.jpg) !important; border-collapse: collapse; border-spacing: 0; float: none; height: auto !important; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="bl2left small-12 large-7 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 50px !important; padding-right: 8px; text-align: left; width: 363.16667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="55px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 55px; font-weight: 400; hyphens: auto; line-height: 55px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <img src="../img/logo-small.png" alt="logoSmall" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;">
+
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="35px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 35px; font-weight: 400; hyphens: auto; line-height: 35px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">Привет, Мария</h2>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="14px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 14px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">Подпишись</h2>
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">на Чат-бот NL_Assistant</h2>
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">в Telegram!</h2>
+
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 25px; font-weight: 400; hyphens: auto; line-height: 25px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <table class="button go" style="Margin: 0 0 16px 0; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-bottom: 65px; text-align: left; vertical-align: top; width: auto !important;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #ffa800; border: 2px solid #ffa800; border-collapse: collapse !important; color: #fff; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 18px; margin: 0; padding: 13px 17px !important; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; border: 0 solid #34ace0; border-radius: 3px; color: #fff; display: inline-block; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 700; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">Присоединяйся!</a></td></tr></table></td></tr></table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="50px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 50px; font-weight: 400; hyphens: auto; line-height: 50px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th></tr></table></th>
+            <th class="small-12 large-5 columns last" valign="bottom" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 254.83333px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <img class="small-float-center" src="../img/iphone.png" alt="iphone" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;">
+            </th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 3-->
+        <table align="center" class="container block3 float-center" style="Margin: 0 auto; background: #fff; background-image: url(../img/backg3block.jpg) !important; border-collapse: collapse; border-spacing: 0; float: none; height: auto !important; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="contInfo small-12 large-12 columns first last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 50px !important; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 634px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Будь в курсе всего происходящего в компании и получи</p>
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">персонального помощника в своем телефоне!</p>
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Ботом пользуются уже более 30 тысяч менеджеров</p>
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">и клиентов компании  NL.</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">С Чат-ботом NL у тебя под рукой</h2>
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">всегда будут ответы на вопросы.</h2>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Ты выбираешь, какая информация тебя интересует, </p>
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">бот выдает готовый ответ.</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 25px; font-weight: 400; hyphens: auto; line-height: 25px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">Наш дружелюбный умный бот в Телеграм делится с менеджерами</p>
+              <p class="info" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;">и клиентами тем, что знает.</p>
+            </th>
+<th class="expander" style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 4-->
+        <table align="center" class="container block4 float-center" style="Margin: 0 auto; background: #fff; background-image: url(../img/backg4block.jpg) !important; border-collapse: collapse; border-spacing: 0; float: none; height: auto !important; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="block4Left small-12 large-6 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 55px 0 10px !important; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <center data-parsed="" style="min-width: 277px; width: 100%;">
+                <img class="small-float-center float-center" src="../img/iphone2.png" alt="iphone" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+              </center>
+            </th></tr></table></th>
+            <th class="block4right small-12 large-6 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 80px 10px 0 18px !important; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">В нем ты найдешь:</h2>
+              <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"><span style="font-weight: 700 !important;">График событий, </span>чтобы всегда быть в курсе важных событий компании; </p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"><span style="font-weight: 700 !important;">Продукты </span>и самую важную информацию о них, а еще видео и частые вопросы;</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"><span style="font-weight: 700 !important;">Программы </span>питания для разных целей + меню и рекомендации;</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"><span style="font-weight: 700 !important;">Бизнес:<br></span></p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Моментальный просмотр ГО и ЛО,</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Регистрация менеджера или клиента</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Рефссылки и другие
+                      полезные штуки,</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Баланс счетов.</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+
+            </th></tr></table></th>
+          </tr></tbody></table>
+
+
+            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <th class="text-info2 small-12 large-12 columns first last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0 20px 40px 30px !important; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 634px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+                <img class="plus" src="../img/plus.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; position: relative !important; right: 10px !important; text-decoration: none; top: 20px !important; width: auto;">
+                <p class="text-info bor" style="Margin: 0; Margin-bottom: 10px; border: 2px solid #fff !important; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 17px !important; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 15px !important; text-align: left; word-wrap: break-word !important;">Плюс информация о магазинах, партнерах, проектах, сервисах и др.</p>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Поэтому бот – это дополнительный канал  быстрого</p>
+                <p class="text-info" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"> и емкого консультирования тебя и твоих клиентов.</p>
+              </th>
+<th class="expander" style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+            </tr></tbody></table>
+
+        </td></tr></tbody></table>
+
+        <!--block 5-->
+        <table align="center" class="container block5 float-center" style="Margin: 0 auto; background: #fff; background-image: url(../img/backg5block.jpg) !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="bl5 small-12 large-12 columns first last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 53px 10px 50px 45px !important; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 634px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">Ты еще не подключился?</h2>
+              <h2 style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: left; word-wrap: normal;">Значит, эта инструкция для тебя.</h2>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="info bold" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; line-height: 25px !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left;"></p>
+
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka2.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Установи в своем телефоне приложение Telegram.</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka2.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Пройди по ссылке <a href="#" style="Margin: 0; color: #424242 !important; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">@nl_assistant_bot</a> и подпишись.</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka2.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Или найди в поисковой строке чатов адрес</p>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;"><a href="#" style="Margin: 0; color: #424242 !important; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">@NL_Assistant</a> и подпишись.</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="marker" src="../img/tochka2.png" alt="market" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 20px 0 0 !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Чтобы тебе был доступен самый интересный</p>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">и полный функционал, авторизируйся.</p>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+
+              <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Все! Ты в чат-боте.</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Бот доступен абсолютно для всех!</p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: break-word !important;">Устанавливай себе и отправляй ссылку своим клиентам.</p>
+
+            </th>
+<th class="expander" style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 6-->
+        <table align="center" class="container block6 float-center" style="Margin: 0 auto; background: #f6f6f6 !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="bl6left small-12 large-6 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 40px 0 !important; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="img1" src="../img/nlstore.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 74px !important; outline: 0; padding-left: 40px !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"> <h2 style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 30px !important; margin: 0; margin-bottom: 0 !important; padding: 0 0 10px 20px !important; text-align: left; word-wrap: normal;">NL_Store</h2>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0 15px 0 20px !important; text-align: left; word-wrap: break-word !important;">Интернет-магазин в твоем мобильном</p></td>
+                </tr>
+                </tbody>
+              </table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="40px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 40px; font-weight: 400; hyphens: auto; line-height: 40px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img2" src="../img/aplstore.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding-left: 50px !important; text-decoration: none; width: auto;"></a>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="img2" src="../img/gogpl.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding-left: 50px !important; text-decoration: none; width: auto;"></a>
+
+            </th></tr></table></th>
+            <th class="bl6right small-12 large-6 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 40px 0 !important; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="img1 row2" src="../img/logblue.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 74px !important; outline: 0; padding-left: 30px !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"> <h2 style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 400; line-height: 30px !important; margin: 0; margin-bottom: 0 !important; padding: 0 0 10px 20px !important; text-align: left; word-wrap: normal;">NL Reader</h2>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0 15px 0 20px !important; text-align: left; word-wrap: break-word !important;">Коммуникационное приложение</p></td>
+                </tr>
+                </tbody>
+              </table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="40px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 40px; font-weight: 400; hyphens: auto; line-height: 40px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="im" src="../img/aplstore.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding-left: 40px !important; text-decoration: none; width: auto;"></a>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="im" src="../img/gogpl.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding-left: 40px !important; text-decoration: none; width: auto;"></a>
+
+            </th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 7-->
+
+        <table align="center" class="container block7 float-center" style="Margin: 0 auto; background: #fff !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="bl7left small-12 large-6 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 40px 0 !important; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="img1" src="../img/nlred.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 74px !important; outline: 0; padding-left: 40px !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"> <h3 style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 25px; font-weight: 400; line-height: 30px !important; margin: 0; margin-bottom: 0 !important; padding: 0 0 10px 20px !important; text-align: left; word-wrap: normal;">NL_News</h3>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0 15px 0 20px !important; text-align: left; word-wrap: break-word !important;">Узнавай новости первым в Telegram</p></td>
+                </tr>
+                </tbody>
+              </table>
+
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <table class="button subscribe" style="Margin: 0 0 16px 0; border-collapse: collapse; border-spacing: 0; display: block !important; margin: 0 !important; padding: 0; padding-left: 40px !important; text-align: left; vertical-align: top; width: auto !important;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #34ace0; border: 0; border-collapse: collapse !important; border-radius: 5px !important; color: #fff; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 18px; margin: 0; padding: 10px 20px !important; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; border: 0 solid #34ace0; border-radius: 3px; color: #fff; display: inline-block; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400 !important; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">Подписаться</a></td></tr></table></td></tr></table>
+
+
+            </th></tr></table></th>
+            <th class="bl7right small-12 large-6 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 40px 0 !important; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="img1 row2" src="../img/nlblack.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 74px !important; outline: 0; padding-left: 30px !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"> <h3 style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 25px; font-weight: 400; line-height: 30px !important; margin: 0; margin-bottom: 0 !important; padding: 0 0 10px 20px !important; text-align: left; word-wrap: normal;">NL_Assistant</h3>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0 15px 0 20px !important; text-align: left; word-wrap: break-word !important;">Твой надежный <br>помощник в Telegram</p></td>
+                </tr>
+                </tbody>
+              </table>
+
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <table class="button subscribe2" style="Margin: 0 0 16px 0; border-collapse: collapse; border-spacing: 0; display: block !important; margin: 0 !important; padding: 0; padding-left: 40px !important; text-align: left; vertical-align: top; width: auto !important;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #34ace0; border: 0; border-collapse: collapse !important; border-radius: 5px !important; color: #fff; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 18px; margin: 0; padding: 10px 20px !important; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; border: 0 solid #34ace0; border-radius: 3px; color: #fff; display: inline-block; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400 !important; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">Подписаться</a></td></tr></table></td></tr></table>
+
+            </th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <!--block 8-->
+        <table align="center" class="container block8 float-center" style="Margin: 0 auto; background: #f6f6f6 !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-1 large-3 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 146.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;"></th></tr></table></th>
+            <th class="bl8cen small-10 large-6 columns" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 30px 0 20px !important; padding-bottom: 0; padding-left: 8px; padding-right: 8px; text-align: left; width: 309px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><img class="img1 row2" src="../img/town.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 74px !important; outline: 0; padding-left: 30px !important; text-decoration: none; width: auto;"></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"> <h3 style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 25px; font-weight: 400; line-height: 30px !important; margin: 0; margin-bottom: 0 !important; padding: 0 0 10px 20px !important; text-align: left; word-wrap: normal;">NeBoSkreb</h3>
+                    <p class="text-info black" style="Margin: 0; Margin-bottom: 10px; color: #424242 !important; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px; font-weight: 400; letter-spacing: 0 !important; line-height: normal !important; margin: 0 !important; margin-bottom: 10px; padding: 0 15px 0 20px !important; text-align: left; word-wrap: break-word !important;">Обучающая игра
+                      об ассортименте</p></td>
+                </tr>
+                </tbody>
+              </table>
+            </th></tr></table></th>
+            <th class="small-1 large-3 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 146.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;"></th></tr></table></th>
+          </tr></tbody></table>
+
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <!--<columns small="1" large="2"></columns>-->
+            <th class="small-12 large-4 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 200.66667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="float-right small-float-center" src="../img/aplstore.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; float: right; max-width: 100%; outline: 0; text-align: right; text-decoration: none; width: auto;"></a>
+            </th></tr></table></th>
+            <th class="small-12 large-4 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 200.66667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="float-left small-float-center" src="../img/gogpl.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; float: left; max-width: 100%; outline: 0; text-align: left; text-decoration: none; width: auto;"></a>
+            </th></tr></table></th>
+            <!--<columns small="1" large="2"></columns>-->
+          </tr></tbody></table>
+          <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="38px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 38px; font-weight: 400; hyphens: auto; line-height: 38px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+        </td></tr></tbody></table>
+
+        <!--block 9-->
+        <table align="center" class="container block9 float-center" style="Margin: 0 auto; background: #fff !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 634px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <h2 class="text-center" style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: center; word-wrap: normal;">Присоединяйтесь к нам</h2>
+              <h2 class="text-center" style="Margin: 0; Margin-bottom: 10px; color: #000 !important; font-family: 'PTSansBold',sans-serif !important; font-size: 30px; font-weight: 700 !important; line-height: 40px !important; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: center; word-wrap: normal;">в соцсетях</h2>
+            </th>
+<th class="expander" style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+          <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-0 large-1 columns first" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 8px; text-align: left; width: 38.16667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;"></th></tr></table></th>
+            <th class="small-float-left small-10 large-3 columns" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 8px; text-align: left; width: 146.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="im2" src="../img/vk.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding: 0 !important; text-decoration: none; width: auto;"></a></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><p class="foottext" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400; line-height: 30px; margin: 0; margin-bottom: 10px; padding: 10px 0 30px !important; text-align: left; text-decoration: underline !important;">Вконтакте</p></a></td>
+                </tr>
+                </tbody>
+              </table>
+
+            </th></tr></table></th>
+            <th class="small-float-left small-10 large-3 columns" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 8px; text-align: left; width: 146.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="im2" src="../img/insta.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding: 0 !important; text-decoration: none; width: auto;"></a></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><p class="foottext" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400; line-height: 30px; margin: 0; margin-bottom: 10px; padding: 10px 0 30px !important; text-align: left; text-decoration: underline !important;">Instagram</p></a></td>
+                </tr>
+                </tbody>
+              </table>
+
+            </th></tr></table></th>
+            <th class="small-float-left small-10 large-3 columns" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 8px; text-align: left; width: 146.5px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                <tbody>
+                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="im2" src="../img/youtube.png" alt="logo_NL" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; margin: 0 !important; max-width: 181px !important; outline: 0; padding: 0 !important; text-decoration: none; width: auto;"></a></td>
+                  <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; color: #34ace0; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><p class="foottext" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400; line-height: 30px; margin: 0; margin-bottom: 10px; padding: 10px 0 30px !important; text-align: left; text-decoration: underline !important;">Youtube</p></a></td>
+                </tr>
+                </tbody>
+              </table>
+
+            </th></tr></table></th>
+            <th class="small-0 large-1 columns last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 8px; padding-right: 16px; text-align: left; width: 38.16667px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;"></th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <table align="center" class="container float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 650px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 634px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0; text-align: left;">
+              <p class="foottext2" style="Margin: 0; Margin-bottom: 10px; color: #424242; font-family: 'PTSansRegular',sans-serif !important; font-size: 18px !important; font-weight: 400; line-height: 30px; margin: 0; margin-bottom: 10px; padding: 0 30px 40px !important; text-align: center;">Вы получили это письмо, так как подписались на рассылку на
+                <a href="#" style="Margin: 0; color: #424242 !important; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: underline !important;"><span style="font-weight: 700 !important;">нашем сайте </span></a>телефон горячей линии: <span style="font-weight: 700 !important;">8-800-2-500-800</span></p>
+            </th>
+<th class="expander" style="Margin: 0; color: #424242; font-family: Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+
+        <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #424242; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+        </center>
+
+
+
+
+  </td>
+  </tr>
+  </table>
+</body>
+</html>
